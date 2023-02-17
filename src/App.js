@@ -36,7 +36,6 @@ function App() {
       <UserContext.Provider value={programCordinator} >
           <Header signOut={handleSignOut} handleViewBoard={handleViewBoard} viewBoard={viewBoard}/>
       </UserContext.Provider>
-
       {
         viewBoard ? 
       <main>
@@ -49,8 +48,7 @@ function App() {
           <NormalBoard/>
         </UserContext.Provider>
       </main>
-      }
-        
+      } 
     </div>
     )
   }

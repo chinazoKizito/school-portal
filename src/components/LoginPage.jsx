@@ -9,7 +9,7 @@ function LoginPage({signIn}) {
 
   return (
     <div>
-      <h2 className='welcome-message'>Welcome to Learnable 2022 Leaderboard, Log into the portal to see how our students are performing</h2>
+      <h2 className='welcome-message'>Welcome to Learnable-2022 dashboard, Log into the portal to see how our students are performing</h2>
         <main className='login'>
           <form action="" className='profile-card' onSubmit={handleSubmit}>
               <input type="email"  placeholder='Enter Your Email here' />
