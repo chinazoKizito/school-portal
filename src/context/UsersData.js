@@ -7,7 +7,7 @@ function sumArray(numlist) {
     return sum
 }
 
-const userData = [
+ const userData = [
     {
         id : 'genesys1',
         name : 'Kizito Chinazo',
@@ -169,7 +169,8 @@ export const programCordinator = {
     title : 'Program Cordinator'
 }
 
-
+// Create a copy of the original data before sorting and export it
+export const UserDataGreen = userData.slice()
 
 // Export the sorted users data from highest scoring to the lowest
 export const sortedUsersData = userData.sort((a, b) => b.aggregateScore - a.aggregateScore)
